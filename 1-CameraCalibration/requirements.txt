@@ -1,0 +1,5 @@
+numpy==1.9.2
+PyYAML==3.11
+
+
+calibrate.py .\example_input\calibration2_out.mp4 calibration2.yaml --debug-dir out

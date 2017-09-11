@@ -1,0 +1,9 @@
+(1)Make sure the size of image is equal to the video resolution, e.g. 1000*750
+
+(2)Using photoshop to paint the wanted area to white and paint the unwanted area to black(now the image data is RGB value)
+
+(3)Using matlab to  read the generated RGB mask and convert the RGB value to logical
+
+imread('XXXX.png');
+a = im2bw(rgb2gray(imread('XXXX.png')));
+imwrite(a,'XXXX_.png');
